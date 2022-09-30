@@ -1,9 +1,15 @@
 body {
-  background-image: linear-gradient( rgb(255, 81, 0), rgb(255, 255, 255));
+  background-image: linear-gradient( rgb(255, 81, 0), rgb(0, 0, 0));
 }
 
-img {
-  width: 20%;
+@font-face {
+  font-family: "Old";
+  src: url('../Fontes/UnifrakturMaguntia-Regular.ttf');
+}
+
+@font-face {
+  font-family: "Kaushan" ;
+  src: url('../Fontes/KaushanScript-Regular.ttf');
 }
 
 .img-linkedin {
@@ -11,8 +17,88 @@ img {
   border-radius: 50%;
 }
 
+.Foto_corpo {
+  border-radius: 25%;
+}
+
+img {
+  width: 10%;
+}
+
+.info img {
+  width: 20%;
+}
+
+main h1 {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-family: 'Old';
+}
+
+.info {
+  color: white;
+  display: flex;
+}
+
+.linksSociais {
+  width: 50%;
+  display: flex;
+}
+
+
 header { /*o header é um div, só que com nome diferente para separar quais partes do site estaremos mexendo*/
-  background-image: linear-gradient(180deg, rgb(255, 255, 255), rgb(255, 81, 0) );
+  background-image: 
+  linear-gradient(180deg, rgb(255, 255, 255), rgb(255, 81, 0) );
   padding: 20px 10px;
 }
+
+header { /*o header é um div, só que com nome diferente para separar quais partes do site estaremos mexendo*/
+  background-image: linear-gradient(180deg, rgb(39, 39, 39), rgb(255, 81, 0) );
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header ul {
+  text-transform: uppercase;
+}
+
+header nav li {
+  display: inline-block;
+  padding: 15px 100px;
+}
+
+header nav li:hover {
+  color: rgb(255, 94, 0);
+  background-color: rgb(39, 39, 39);
+  transition: 0.5s;
+  padding: 18px 70px;
+}
+
+.info p, h1, h2, ul {
+  padding: 5px 15px;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.buttonLinkedIn img {
+  width: 30%;
+  padding: 5px;
+}
+
+.buttonGit img {
+  width: 15%;
+  padding: 2px;
+}
+
+.Programas p, img {
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+}
+
+
 
