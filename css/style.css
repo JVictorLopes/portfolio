@@ -17,16 +17,9 @@ body {
   border-radius: 50%;
 }
 
-.Foto_corpo {
-  border-radius: 25%;
-}
-
-img {
-  width: 10%;
-}
-
 .info img {
-  width: 20%;
+  width: 50%;
+  border-radius: 25%;
 }
 
 main h1 {
@@ -94,11 +87,14 @@ header nav li:hover {
   padding: 2px;
 }
 
-.Programas p, img {
-  color: white;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.Programas.tecnologias figure, img {
+  width: 150px;
+  padding: 15px;
   display: flex;
+  color: white;
 }
+
+
 
 
 
